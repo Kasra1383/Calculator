@@ -1,0 +1,47 @@
+.calcNumGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 180px;
+    height: 200px;
+}
+
+.calcSideGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    width: 60px;
+    height: 200px;
+}
+
+.calcGrid {
+    display: flex;
+    gap: 30px;
+}
+
+.calcBody {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 50px;
+}
+
+.header {
+    margin-left: 50px;
+}
+
+.screen {
+    display: flex;
+    width: 267px;
+    height: 60px;
+    border: solid;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
